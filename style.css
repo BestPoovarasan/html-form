@@ -1,0 +1,47 @@
+.head{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.form{
+    display: flex; 
+}
+label{
+    margin: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 192, 39);
+    color: white;
+    border: 1px solid #ddd;
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+table{
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-spacing: 30px;
+ 
+}
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+span{
+    color: #ff0000;
+}
+
